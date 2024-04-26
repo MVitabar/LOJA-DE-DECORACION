@@ -1,0 +1,103 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.fundo {
+   
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+header {
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+
+}
+
+a {
+    display: inline-block;
+    cursor: pointer;
+    margin: 20px;
+
+
+}
+
+h1 {
+
+    display: block;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+h3 {
+
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    margin: 15px auto;
+    padding: 0 5%;
+
+}
+
+p {
+
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    padding: 0 10%;
+
+}
+li{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+.ocasiao{
+    background-image: url("./assets/mesa-1.jpeg");
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+.criatividade{
+    background-image: url("./assets/dulces1.jpg");
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+.compromisso{
+    background-image: url("./assets/bolo1.jpg");
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+.contato{
+    background-image: url("./assets/fiesta-oscuro.jpg");
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+.linkwhatsapp {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+}
