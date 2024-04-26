@@ -6,23 +6,15 @@
     color: white;
 }
 
-.fundo {
-   
-    z-index: -1;
-    position: fixed;
-    top: 0;
-    height: 100%;
-    width: 100%;
 
-
-}
 
 header {
+    background-color: rgba(0, 0, 0, .70);
     font-size: 24px;
     font-weight: 600;
     display: flex;
     align-items: center;
-    margin: 30px;
+    
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
@@ -31,6 +23,7 @@ header {
 }
 
 a {
+    color: rgb(24, 9, 184);
     display: inline-block;
     cursor: pointer;
     margin: 20px;
@@ -39,11 +32,14 @@ a {
 }
 
 h1 {
-
+    color: rgb(47, 1, 127);
     display: block;
     font-size: 60px;
     text-align: center;
 
+}
+strong{
+    color: blueviolet;
 }
 
 h2{
@@ -73,6 +69,10 @@ li{
     font-weight: bold;
     text-align: center;
     align-items: center;
+}
+
+img{
+    border-radius: 40px;
 }
 .ocasiao{
     background-image: url("./assets/mesa-1.jpeg");
@@ -109,7 +109,7 @@ section{
      width: 50%;
     display: flex;
     height: 200px;
-    align-content: flex-start;
+    align-content: center;
     /* flex-wrap: wrap; */
     flex-direction: row;
     justify-content: center;
@@ -136,7 +136,18 @@ section{
     
 
 }
+.fundo {
+   
+    z-index: -1;
+    position: fixed;
+    top: -30px;
+    left: -200px;
+    height: 100%;
+    width: 100%;
+    border-radius: none;
 
+
+}
 
 
 .linkwhatsapp {
