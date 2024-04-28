@@ -27,6 +27,7 @@ a {
     display: inline-block;
     cursor: pointer;
     margin: 20px;
+    text-decoration: none;
 
 
 }
@@ -67,14 +68,18 @@ p {
 
 }
 li{
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight: bolder;
     text-align: center;
     align-items: center;
 }
 
 img{
     border-radius: 40px;
+}
+
+.menu-superior {
+    color: white;
 }
 .ocasiao{
     background-image: url("./assets/mesa-1.jpeg");
@@ -143,7 +148,7 @@ section{
     z-index: -1;
     position: fixed;
     top: -30px;
-    left: -200px;
+    left: -100px;
     height: 100%;
     width: 100%;
     border-radius: none;
