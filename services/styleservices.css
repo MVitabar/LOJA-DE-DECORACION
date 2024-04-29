@@ -1,5 +1,5 @@
 * {
-    
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,13 +12,14 @@ header {
     font-weight: 600;
     display: flex;
     align-items: center;
-    
+
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-evenly;
 
 }
+
 a {
     color: rgb(24, 9, 184);
     display: inline-block;
@@ -31,13 +32,14 @@ a {
 
 h1 {
     background-color: rgb(255, 0, 0);
-   
+
     display: block;
     font-size: 60px;
     text-align: center;
     border-radius: 50%;
 
 }
+
 p {
 
     display: block;
@@ -45,12 +47,14 @@ p {
     text-align: center;
     padding: 0 10%;
 }
+
 h3 {
     display: block;
     font-size: 30px;
     text-align: center;
     padding: 0 10%;
 }
+
 .service-img {
     display: block;
     width: 60%;
@@ -59,8 +63,9 @@ h3 {
     align-items: center;
 
 }
+
 .fundo-services {
-   
+
     z-index: -1;
     position: fixed;
     top: -30px;
@@ -71,9 +76,11 @@ h3 {
 
 
 }
+
 .menu-superior {
     color: white;
 }
+
 .fale-conosco {
     background-color: white;
     display: flex;
@@ -88,24 +95,25 @@ h3 {
     left: -400px;
     transition: left 1s ease-in-out;
 
-        input {
-            height: 30px;
-            border-radius: 5px;
-            border: 1px solid grey;
-            padding-left: 5px;
-            outline-color: #18080f;
-        }
-        
-        textarea {
-            height: 100px;
-            width: 350px;
-            border-radius: 5px;
-            border: 1px solid grey;
-            padding-left: 5px;
-            outline-color: #18080f;
-        }
+    input {
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid grey;
+        padding-left: 5px;
+        outline-color: #18080f;
+    }
+
+    textarea {
+        height: 100px;
+        width: 350px;
+        border-radius: 5px;
+        border: 1px solid grey;
+        padding-left: 5px;
+        outline-color: #18080f;
+    }
 
 }
+
 button {
     color: white;
     background-color: #ff0000;
@@ -116,8 +124,8 @@ button {
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
- 
-    
+
+
 
 }
 
