@@ -6,33 +6,75 @@
     <title>Serviços</title>
     <link rel="stylesheet" href="./services/styleservices.css" />
 </head>
-<body>
-    <header class="principal">
-        <a class="menu-superior" href="./index.html">Home</a>
-        <a class="menu-superior" href="./sobre-nos.html">Sobre Nos</a>
-        <a class="menu-superior" >Serviços</a>
-        <a class="menu-superior">Contato</a>
-        <a class="menu-superior">FAQ</a>
-    </header>
-    <div class="fundo-services">
-        <img src="./services/fundo.jpg">
-    </div>
-    <h1> SERVIÇOS </h1>
-    <P>Lorem ipsum dolor sit amet consectetur adipisicing 
-        elit. Explicabo, tempora ratione excepturi alias 
-        aperiam beatae sapiente, velit maiores quia cumque 
-        quam eligendi eaque mollitia asperiores amet tempore 
-        ipsam soluta doloribus</P>
-    
-        
-    <p>elit. Earum, soluta velit quod distinctio iure 
-        dolores eum ad obcaecati sed delectus. Libero 
-        deserunt eos delectus voluptates neque rerum magnam 
-        voluptate porro!</P>
-    
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum debitis veritatis voluptatem? Libero nihil possimus, ut laborum perferendis aliquid esse quam sed cupiditate praesentium itaque iure dolore mollitia similique numquam.</p>
-    
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur iure, dolores molestias aliquam nulla officiis reiciendis ab reprehenderit corporis maiores delectus nesciunt. Nisi, blanditiis expedita. Perferendis veniam sapiente nemo vel.</p>
+    <body>
+        <div class="mascara-formulario" onclick="hideform()"></div>
+        <header class="principal">
+            <a class="menu-superior" href="./index.html">Home</a>
+            <a class="menu-superior" href="./sobre-nos.html">Sobre Nos</a>
+            <a class="menu-superior" >Serviços</a>
+            <a class="menu-superior" onclick="showform()">Contato</a>
+            <a class="menu-superior" href="./faq.html">FAQ</a>
+        </header>
+        <div class="fundo-services">
+            <img src="./services/fundo.jpg">
+        </div>
+            <h1> SERVIÇOS </h1>
+            
+            
+                <h3> **Serviços Personalizados**<br>
+                **Para Cada Ocasião, um Toque Especial**</h3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Explicabo, tempora ratione excepturi alias 
+                aperiam beatae sapiente, velit maiores quia cumque 
+                quam eligendi eaque mollitia asperiores amet tempore 
+                ipsam soluta doloribus</P>
+                
+                <img class="service-img" src="./services/decoracion4.jpg">
 
-</body>
+                <h3>**Criatividade sem Limites**<br>
+                **Inovação e Tendência em Decoração**</h3>
+            <p>elit. Earum, soluta velit quod distinctio iure 
+                dolores eum ad obcaecati sed delectus. Libero 
+                deserunt eos delectus voluptates neque rerum 
+                magnam 
+                voluptate porro!</P>
+                
+                <img class="service-img" src="./services/decoracion3.jpg">
+
+                <h3>**Detalhes que Encantam**<br>
+                    **Pequenos Toques que Fazem Grande Diferença**</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur 
+                adipisicing elit. Voluptatum debitis veritatis 
+                voluptatem? Libero nihil possimus, ut laborum 
+                perferendis aliquid esse quam sed cupiditate 
+                praesentium itaque iure dolore mollitia similique 
+                numquam.</p>
+            
+                <img class="service-img" src="./services/bolo3.webp">
+
+                <h3>**Compromisso com a Excelência**<br>
+                **Sua Satisfação, Nossa Prioridade**</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur iure, dolores molestias aliquam nulla 
+                officiis reiciendis ab reprehenderit corporis maiores
+                delectus nesciunt. Nisi, blanditiis expedita. 
+                Perferendis veniam sapiente nemo vel.</p>
+                
+                <img class="service-img" src="./services/dulces1.jpg">
+            <form 
+                class="fale-conosco"  
+                action="https://formcarry.com/s/UgHMqoZBk5W"
+                method="POST"
+                enctype="multipart/form-data">
+                    <input placeholder="Seu Nome" type="text" name="nome">
+                    <input placeholder="Seu melhor e-mail" type="email" name="email">
+                    <input placeholder="Celular" type="tel" name="telefone">
+                    <textarea placeholder="Detalhes do seu evento" name="duvida"></textarea>
+                    <button class="contato1" type="submit">Pedir orçamento</button>
+            </form>
+            
+            <div class="mascara-formulario" onclick="hideform()"></div>
+
+    </body>
+<script src="./script.js"></script>
 </html>

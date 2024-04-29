@@ -7,34 +7,70 @@
     <title>Sobre Nos</title>
   </head>
   <body>
+    <div class="mascara-formulario" onclick="hideform()"></div>
     <header class="principal">
-        <a class="menu-superior" href="./index.html">Home</a>
-        <a class="menu-superior">Sobre Nos</a>
-        <a class="menu-superior" href="./services.html">Serviços</a>
-        <a class="menu-superior">Contato</a>
-        <a class="menu-superior">FAQ</a>
+      <a class="menu-superior" href="./index.html">Home</a>
+      <a class="menu-superior">Sobre Nos</a>
+      <a class="menu-superior" href="./services.html">Serviços</a>
+      <a class="menu-superior" onclick="showform()">Contato</a>
+      <a class="menu-superior" href="./faq.html">FAQ</a>
     </header>
     <div class="fundo-sobre-nos">
-        <img src="./sobre-nos/fundo.jpg">
+      <img src="./sobre-nos/fundo.jpg" />
     </div>
-    <h1> SOBRE NOS </h1>
-    <P>Lorem ipsum dolor sit amet consectetur adipisicing 
-        elit. Explicabo, tempora ratione excepturi alias 
-        aperiam beatae sapiente, velit maiores quia cumque 
-        quam eligendi eaque mollitia asperiores amet tempore 
-        ipsam soluta doloribus</P>
+    <h1>SOBRE NOS</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
+      tempora ratione excepturi alias aperiam beatae sapiente, velit maiores
+      quia cumque quam eligendi eaque mollitia asperiores amet tempore ipsam
+      soluta doloribus
+    </p>
     <div class="video-box">
-        <video src="./sobre-nos/salon-decorado.mp4" autoplay muted loop></video>
+      <video src="./sobre-nos/salon-decorado.mp4" autoplay muted loop></video>
     </div>
-    <p>elit. Earum, soluta velit quod distinctio iure 
-        dolores eum ad obcaecati sed delectus. Libero 
-        deserunt eos delectus voluptates neque rerum magnam 
-        voluptate porro!</P>
+    <p>
+      elit. Earum, soluta velit quod distinctio iure dolores eum ad obcaecati
+      sed delectus. Libero deserunt eos delectus voluptates neque rerum magnam
+      voluptate porro!
+    </p>
     <h3>A NOSSA LOCALIZAÇÃO</h3>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum debitis veritatis voluptatem? Libero nihil possimus, ut laborum perferendis aliquid esse quam sed cupiditate praesentium itaque iure dolore mollitia similique numquam.</p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
+      debitis veritatis voluptatem? Libero nihil possimus, ut laborum
+      perferendis aliquid esse quam sed cupiditate praesentium itaque iure
+      dolore mollitia similique numquam.
+    </p>
     <div class="maps">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d452702.6418027333!2d-48.79994953597132!3d-27.570597496778888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527394eb2c632d7%3A0x81bc550b6a04c746!2sFlorian%C3%B3polis%2C%20Santa%20Catarina!5e0!3m2!1ses-419!2sbr!4v1714312893981!5m2!1ses-419!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d452702.6418027333!2d-48.79994953597132!3d-27.570597496778888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527394eb2c632d7%3A0x81bc550b6a04c746!2sFlorian%C3%B3polis%2C%20Santa%20Catarina!5e0!3m2!1ses-419!2sbr!4v1714312893981!5m2!1ses-419!2sbr"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
     </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur iure, dolores molestias aliquam nulla officiis reiciendis ab reprehenderit corporis maiores delectus nesciunt. Nisi, blanditiis expedita. Perferendis veniam sapiente nemo vel.</p>
-    </body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur iure,
+      dolores molestias aliquam nulla officiis reiciendis ab reprehenderit
+      corporis maiores delectus nesciunt. Nisi, blanditiis expedita. Perferendis
+      veniam sapiente nemo vel.
+    </p>
+    <form
+      class="fale-conosco"
+      action="https://formcarry.com/s/UgHMqoZBk5W"
+      method="POST"
+      enctype="multipart/form-data"
+    >
+      <input placeholder="Seu Nome" type="text" name="nome" />
+      <input placeholder="Seu melhor e-mail" type="email" name="email" />
+      <input placeholder="Celular" type="tel" name="telefone" />
+      <textarea placeholder="Detalhes do seu evento" name="duvida"></textarea>
+      <button class="contato1" type="submit">Pedir orçamento</button>
+    </form>
+
+    <div class="mascara-formulario" onclick="hideform()"></div>
+  </body>
+  <script src="./script.js"></script>
 </html>
