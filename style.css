@@ -224,11 +224,17 @@ section{
 }
 
 @media(max-width: 700px) {
-    .bottom {
+    body{
+        width: 100vw;
+    }
+    .bottom{
         
         align-items: center;
         flex-direction: column;
         justify-content: center;
     
+    }
+    .left {
+        width: 50%;
     }
 }
