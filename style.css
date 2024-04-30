@@ -17,6 +17,10 @@
     border-radius: none;
 
 
+
+}
+ul{
+    list-style: none;
 }
 
 
@@ -36,7 +40,7 @@ header {
 }
 
 a {
-    color: rgb(24, 9, 184);
+    color: rgb(255, 255, 255);
     display: inline-block;
     cursor: pointer;
     margin: 20px;
@@ -70,6 +74,7 @@ h3 {
     text-align: center;
     margin: 15px auto;
     padding: 0 5%;
+    background-color: rgba(0, 0, 0, 0.608);
 
 }
 
@@ -79,6 +84,7 @@ p {
     font-size: 16px;
     text-align: center;
     padding: 0 10%;
+    background-color: rgba(0, 0, 0, 0.608);
 
 }
 
@@ -115,29 +121,31 @@ button {
 }
 
 .ocasiao {
-    background-color: gray;
+    background-color: rgba(255, 0, 0, 0.771);
     width: 50%;
     margin: 20px auto;
     border-radius: 15px;
 }
 
 .criatividade {
-    background-color: gray;
+    background-color: rgba(255, 0, 0, 0.771);
     width: 50%;
+
     margin: 20px auto;
     border-radius: 15px;
 }
 
 .compromisso {
-    background-color: gray;
+    background-color: rgba(255, 0, 0, 0.771);
     width: 50%;
     margin: 20px auto;
     border-radius: 15px;
 }
 
 .contato {
-    background-color: gray;
+    background-color: rgba(255, 0, 0, 0.771);
     width: 50%;
+
     margin: 20px auto;
     border-radius: 15px;
 }
@@ -233,8 +241,8 @@ section {
     height: 60px;
     width: 60px;
     position: fixed;
-    right: 20px;
-    bottom: 20px;
+    right: 2%;
+    bottom:2%;
 
 }
 
